@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # CONFIGURATION, MODIFY AS NEEDED
-DB_NAME="dbname"
-AGE_PRIVATE_KEY="/home/user/backup.agekey"
+DB_NAME=""
+AGE_PRIVATE_KEY=""
 
 # CHECKS
 if [ $# -ne 1 ]; then
